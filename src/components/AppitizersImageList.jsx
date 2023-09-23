@@ -8,7 +8,8 @@ import styled from 'styled-components';
 
 
 function AppitizersImageList() {
-    return (
+    
+  return (
         <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
           <ImageList variant="masonry" cols={2} gap={7}>
             {itemData.map((item) => (
